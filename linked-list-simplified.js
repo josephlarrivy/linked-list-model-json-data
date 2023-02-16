@@ -56,85 +56,90 @@ class LinkedList {
     
 }
 
-let list = new LinkedList({
-    "indicent_number": "1",
-    // "initialization_time": "date/time",
-    // "nature_code": "xxx",
-    // "location": {
-    //     "address": {
-    //         "street": "xxx",
-    //         "city": "xxx",
-    //         "state": "xxx",
-    //         "zip": "xxx"
-    //     },
-    //     "point": {
-    //         "latitude": "000",
-    //         "longitude": "000"
-    //     }
-    // },
-    // "outcome_status": "xxx"
-})
+// let list = new LinkedList({
+//     "indicent_number": "1",
+//     // "initialization_time": "date/time",
+//     // "nature_code": "xxx",
+//     // "location": {
+//     //     "address": {
+//     //         "street": "xxx",
+//     //         "city": "xxx",
+//     //         "state": "xxx",
+//     //         "zip": "xxx"
+//     //     },
+//     //     "point": {
+//     //         "latitude": "000",
+//     //         "longitude": "000"
+//     //     }
+//     // },
+//     // "outcome_status": "xxx"
+// })
 
-list.append({
-    "indicent_number": "2",
-    // "initialization_time": "date/time",
-    // "nature_code": "xxx",
-    // "location": {
-    //     "address": {
-    //         "street": "xxx",
-    //         "city": "xxx",
-    //         "state": "xxx",
-    //         "zip": "xxx"
-    //     },
-    //     "point": {
-    //         "latitude": "000",
-    //         "longitude": "000"
-    //     }
-    // },
-    // "outcome_status": "xxx"
-})
+// list.append({
+//     "indicent_number": "2",
+//     // "initialization_time": "date/time",
+//     // "nature_code": "xxx",
+//     // "location": {
+//     //     "address": {
+//     //         "street": "xxx",
+//     //         "city": "xxx",
+//     //         "state": "xxx",
+//     //         "zip": "xxx"
+//     //     },
+//     //     "point": {
+//     //         "latitude": "000",
+//     //         "longitude": "000"
+//     //     }
+//     // },
+//     // "outcome_status": "xxx"
+// })
 
-list.append({
-    "indicent_number": "3",
-    // "initialization_time": "date/time",
-    // "nature_code": "xxx",
-    // "location": {
-    //     "address": {
-    //         "street": "xxx",
-    //         "city": "xxx",
-    //         "state": "xxx",
-    //         "zip": "xxx"
-    //     },
-    //     "point": {
-    //         "latitude": "000",
-    //         "longitude": "000"
-    //     }
-    // },
-    // "outcome_status": "xxx"
-})
+// list.append({
+//     "indicent_number": "3",
+//     // "initialization_time": "date/time",
+//     // "nature_code": "xxx",
+//     // "location": {
+//     //     "address": {
+//     //         "street": "xxx",
+//     //         "city": "xxx",
+//     //         "state": "xxx",
+//     //         "zip": "xxx"
+//     //     },
+//     //     "point": {
+//     //         "latitude": "000",
+//     //         "longitude": "000"
+//     //     }
+//     // },
+//     // "outcome_status": "xxx"
+// })
 
-list.append({
-    "indicent_number": "4",
-    // "initialization_time": "date/time",
-    // "nature_code": "xxx",
-    // "location": {
-    //     "address": {
-    //         "street": "xxx",
-    //         "city": "xxx",
-    //         "state": "xxx",
-    //         "zip": "xxx"
-    //     },
-    //     "point": {
-    //         "latitude": "000",
-    //         "longitude": "000"
-    //     }
-    // },
-    // "outcome_status": "xxx"
-})
+// list.append({
+//     "indicent_number": "4",
+//     // "initialization_time": "date/time",
+//     // "nature_code": "xxx",
+//     // "location": {
+//     //     "address": {
+//     //         "street": "xxx",
+//     //         "city": "xxx",
+//     //         "state": "xxx",
+//     //         "zip": "xxx"
+//     //     },
+//     //     "point": {
+//     //         "latitude": "000",
+//     //         "longitude": "000"
+//     //     }
+//     // },
+//     // "outcome_status": "xxx"
+// })
+
+let list = new LinkedList(1)
+list.append(2)
+list.append(3)
+list.append(4)
+list.append(5)
 
 
-
-console.log(list)
-// list.print()
+// console.log(list)
+list.print()
 
 module.exports = LinkedList;
